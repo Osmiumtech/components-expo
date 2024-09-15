@@ -1,14 +1,18 @@
+// Copyright Osmiumtech 2024.
+// Distributed under the Boost Software License, Version 1.0.
+// https://www.boost.org/LICENSE_1_0.txt
+
 // Copyright DWJ 2024.
 // Distributed under the Boost Software License, Version 1.0.
 // https://www.boost.org/LICENSE_1_0.txt
 
-import { StyledLoader } from "@dwidge/components-rnw";
-import { getFontAwesomeGlyphFromMime } from "@dwidge/components-rnw";
+import { StyledLoader } from "@osmiumtech/components-rnw";
+import { getFontAwesomeGlyphFromMime } from "@osmiumtech/components-rnw";
 import { Image } from "@rneui/themed";
 import { getMimeFromUri } from "./uri";
-import { StyledFontAwesome } from "@dwidge/components-rnw";
+import { StyledFontAwesome } from "@osmiumtech/components-rnw";
 import * as Linking from "expo-linking";
-import { useBufferedState } from "@dwidge/hooks-react";
+import { useBufferedState } from "@osmiumtech/hooks-react";
 
 const useDataUriCache = (dataUri: string | null | undefined) =>
   useBufferedState<string | null | undefined>([dataUri, () => {}]);

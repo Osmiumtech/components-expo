@@ -1,8 +1,8 @@
 {
-  "name": "@dwidge/components-expo",
+  "name": "@osmiumtech/components-expo",
   "version": "0.0.6",
   "description": "A collection of Expo components and utilities.",
-  "repository": "github:dwidge/components-expo",
+  "repository": "github:osmiumtech/components-expo",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/types/index.d.ts",
@@ -22,10 +22,10 @@
     "test": "node --test"
   },
   "peerDependencies": {
-    "@dwidge/components-rnw": "^0.0.2",
-    "@dwidge/hooks-expo": "^0.0.1",
-    "@dwidge/hooks-react": "^0.0.1",
-    "@dwidge/utils-js": "^0.0.2",
+    "@osmiumtech/components-rnw": "^0.0.2",
+    "@osmiumtech/hooks-expo": "^0.0.1",
+    "@osmiumtech/hooks-react": "^0.0.1",
+    "@osmiumtech/utils-js": "^0.0.3",
     "@rneui/themed": "4.0.0-rc.8",
     "axios": "^1.7.7",
     "expo-av": "^14.0.7",

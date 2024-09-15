@@ -1,13 +1,17 @@
+// Copyright Osmiumtech 2024.
+// Distributed under the Boost Software License, Version 1.0.
+// https://www.boost.org/LICENSE_1_0.txt
+
 // Copyright DWJ 2024.
 // Distributed under the Boost Software License, Version 1.0.
 // https://www.boost.org/LICENSE_1_0.txt
 
 import React from "react";
-import { useNavigation } from "@dwidge/hooks-expo";
-import { StyledText } from "@dwidge/components-rnw";
-import { IconButtonProps, IconButton } from "@dwidge/components-rnw";
-import { AlignedView } from "@dwidge/components-rnw";
-import { Gap } from "@dwidge/components-rnw";
+import { useNavigation } from "@osmiumtech/hooks-expo";
+import { StyledText } from "@osmiumtech/components-rnw";
+import { IconButtonProps, IconButton } from "@osmiumtech/components-rnw";
+import { AlignedView } from "@osmiumtech/components-rnw";
+import { Gap } from "@osmiumtech/components-rnw";
 
 export const StyledHeader = ({
   title = "",

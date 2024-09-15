@@ -1,8 +1,12 @@
+// Copyright Osmiumtech 2024.
+// Distributed under the Boost Software License, Version 1.0.
+// https://www.boost.org/LICENSE_1_0.txt
+
 // Copyright DWJ 2024.
 // Distributed under the Boost Software License, Version 1.0.
 // https://www.boost.org/LICENSE_1_0.txt
 
-import { ContextError } from "@dwidge/components-rnw";
+import { ContextError } from "@osmiumtech/components-rnw";
 import * as assert from "assert";
 import * as FileSystem from "expo-file-system";
 import * as Sharing from "expo-sharing";

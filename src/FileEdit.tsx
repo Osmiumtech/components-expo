@@ -1,3 +1,7 @@
+// Copyright Osmiumtech 2024.
+// Distributed under the Boost Software License, Version 1.0.
+// https://www.boost.org/LICENSE_1_0.txt
+
 // Copyright DWJ 2024.
 // Distributed under the Boost Software License, Version 1.0.
 // https://www.boost.org/LICENSE_1_0.txt
@@ -7,7 +11,7 @@ import {
   StyledLoader,
   StyledText,
   StyledView,
-} from "@dwidge/components-rnw";
+} from "@osmiumtech/components-rnw";
 import { exportUri } from "./exportUri";
 import { FilePreview } from "./FilePreview";
 import { getMediaFromCamera } from "./getMediaFromLibrary";
